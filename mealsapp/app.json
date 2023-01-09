@@ -2,9 +2,9 @@
   "expo": {
     "name": "mealsapp",
     "slug": "mealsapp",
-    "version": "1.0.6",
+    "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/free-icon-rice-bowl-641901.png",
+    "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -20,8 +20,10 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.woo12.mealsapp",
-      "versionCode": 1
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
